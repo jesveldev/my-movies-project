@@ -14,7 +14,6 @@ export default function Login() {
 	    	<TextField placeholder='Username' required/>
 	    	<TextField placeholder='Password'type='password' required/>
 
-	    	
 	    	<Button onClick={ (e)=>e.preventDefault() }>
 	    		<Link to='/dashboard'>Log-in</Link>
 	    	</Button>

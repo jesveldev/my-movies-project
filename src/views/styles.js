@@ -1,5 +1,23 @@
 import styled from 'styled-components';
 
+const LateralMenu = styled.aside`
+	background-color: #EEE;
+	width:25vw;
+	height:95vh;
+
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	position:fixed;
+	top:10px;
+	left:10px;
+
+	border-radius:5px;
+	box-shadow: 0px 0px 10px 3px black;
+	box-shadow: -3px 3px 3px 1px #AAA;
+`;
+
 const Main = styled.main`
   width:100vw;
   min-height:100vh;
@@ -88,5 +106,6 @@ export {
 	TextField,
 	Label,
 	Form,
-	FormLogo
+	FormLogo,
+	LateralMenu
 };

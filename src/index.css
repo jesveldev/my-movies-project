@@ -4,6 +4,7 @@
   padding:0;
   line-height: 1.5;
   font-family:"Bookman Old Style", Georgia, sans-serif;
+  user-select: none;
 }
 
 /*:root {
